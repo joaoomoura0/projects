@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    padding: 2rem;
+    text-align: center;
+    background-color: #331f19;    
+    color: #f4f0ea;
+
+}
+
+main {
+    padding: 3rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #331f19;
+    color: #f4f0ea;
+    border-radius: 0.5rem;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card button {
+    background-color: #331f19;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: none;
+    margin: 1rem;
+    color: #f4f0ea;
+    margin-top: 2rem;
+
+    font-size: 0.8rem;
+}
+
+.card img {
+    width: 17rem;
+    height: 11rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
